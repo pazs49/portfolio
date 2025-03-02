@@ -21,37 +21,38 @@ export default function HeroSection() {
         applications. Turning ideas into interactive realities.
       </p>
       <div className="flex gap-4">
-        <Button
-          variant="ghost"
-          size="icon"
-          className="rounded-full hover:bg-purple-500/10 hover:text-purple-400"
-        >
-          <a href="https://github.com/pazs49" target="_blank">
+        <a href="https://github.com/pazs49" target="_blank">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full hover:bg-purple-500/10 hover:text-purple-400"
+          >
             <Github className="h-5 w-5" />
-          </a>
-        </Button>
-        <Button
-          variant="ghost"
-          size="icon"
-          className="rounded-full hover:bg-purple-500/10 hover:text-purple-400"
+          </Button>
+        </a>
+
+        <a
+          href="https://www.linkedin.com/in/percival-salvador-938756246/"
+          target="_blank"
         >
-          <a
-            href="https://www.linkedin.com/in/percival-salvador-938756246/"
-            target="_blank"
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full hover:bg-purple-500/10 hover:text-purple-400"
           >
             <Linkedin className="h-5 w-5" />
-          </a>
-        </Button>
+          </Button>
+        </a>
 
-        <Button
-          variant="ghost"
-          size="icon"
-          className="rounded-full hover:bg-purple-500/10 hover:text-purple-400"
-        >
-          <a href="mailto:percivalsalvador@gmailcom?subject=Hello&body=Hi%20Percival">
+        <a href="mailto:percivalsalvador@gmailcom?subject=Hello&body=Hi%20Percival">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full hover:bg-purple-500/10 hover:text-purple-400"
+          >
             <Mail className="h-5 w-5" />
-          </a>
-        </Button>
+          </Button>
+        </a>
       </div>
     </section>
   );
