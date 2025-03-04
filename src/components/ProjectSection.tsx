@@ -78,7 +78,7 @@ export default function ProjectsSection() {
               <ProjectCard
                 title="Echo Chat App"
                 description="A chat application that interacts with an external API for messaging."
-                image="/assets/echoAppThumbnail.PNG"
+                image="/portfolio/assets/echoAppThumbnail.PNG"
                 tags={[
                   "React",
                   "React Router",

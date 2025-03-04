@@ -10,7 +10,7 @@ export default function AboutSection() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div>
             <img
-              src="/assets/code.jpg"
+              src="/portfolio/assets/code.jpg"
               alt="Working on code"
               className="rounded-lg shadow-xl h-48 object-cover w-full"
             />
