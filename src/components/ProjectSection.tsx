@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Button } from "./ui/button";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectsSection() {
@@ -50,6 +49,8 @@ export default function ProjectsSection() {
                 image="/placeholder.svg?height=200&width=300"
                 tags={["Unity", "C#", "3D"]}
                 type="game"
+                demoLink=""
+                githubLink=""
               />
               <ProjectCard
                 title="Pixel Adventure"
@@ -57,6 +58,8 @@ export default function ProjectsSection() {
                 image="/placeholder.svg?height=200&width=300"
                 tags={["Godot", "GDScript", "2D"]}
                 type="game"
+                demoLink=""
+                githubLink=""
               />
               <ProjectCard
                 title="VR Experience"
@@ -64,6 +67,8 @@ export default function ProjectsSection() {
                 image="/placeholder.svg?height=200&width=300"
                 tags={["Unity", "C#", "VR"]}
                 type="game"
+                demoLink=""
+                githubLink=""
               />
             </div>
           )}

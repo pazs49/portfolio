@@ -1,6 +1,3 @@
-import { Button } from "./ui/button";
-import { Github, Linkedin, Twitter } from "lucide-react";
-
 export default function AboutSection() {
   return (
     <section id="about" className="py-20 bg-gray-900/50">
