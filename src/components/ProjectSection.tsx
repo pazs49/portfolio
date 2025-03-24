@@ -60,7 +60,7 @@ export default function ProjectsSection() {
                 tags={["Unity", "C#", "2D"]}
                 type="game"
                 demoLink="https://jetblazer.itch.io/the-lumberjacks-lumber"
-                githubLink="https://github.com/pazs49/Castle-Defense-Tiny-Tactics"
+                githubLink="https://github.com/pazs49/the-lumberjacks-lumber"
               />
             </div>
           )}
