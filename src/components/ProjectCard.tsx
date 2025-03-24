@@ -67,26 +67,27 @@ export default function ProjectCard({
         </div>
       </CardContent>
       <CardFooter className="p-6 pt-0 flex justify-between">
-        <Button
-          variant="ghost"
-          size="sm"
-          className="text-gray-300 hover:text-white"
-        >
-          <Github className="h-4 w-4 mr-2" />
-          <a href={githubLink} target="_blank">
+        <a href={githubLink} target="_blank">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="text-gray-300 hover:text-white"
+          >
+            <Github className="h-4 w-4 mr-2" />
             Code
-          </a>
-        </Button>
-        <Button
-          variant="ghost"
-          size="sm"
-          className="text-gray-300 hover:text-white"
-        >
-          <ExternalLink className="h-4 w-4 mr-2" />
-          <a href={demoLink} target="_blank">
+          </Button>
+        </a>
+
+        <a href={demoLink} target="_blank">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="text-gray-300 hover:text-white"
+          >
+            <ExternalLink className="h-4 w-4 mr-2" />
             Demo
-          </a>
-        </Button>
+          </Button>
+        </a>
       </CardFooter>
     </Card>
   );
