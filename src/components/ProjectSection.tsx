@@ -44,31 +44,23 @@ export default function ProjectsSection() {
           {activeTab === "games" && (
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
               <ProjectCard
-                title="Cosmic Explorer"
-                description="A 3D space exploration game built with Unity"
-                image="/placeholder.svg?height=200&width=300"
-                tags={["Unity", "C#", "3D"]}
+                title="Tiny Tactics 2D"
+                description="Defend your castle in this fast-paced 2D defense game! Strategically summon units to fend off waves of enemies and protect your kingdom."
+                image="/portfolio/assets/tinyTactics2DThumbnail.PNG"
+                tags={["Unity", "C#", "2D"]}
                 type="game"
-                demoLink=""
-                githubLink=""
+                demoLink="https://percival49.itch.io/tiny-tactics-2d"
+                githubLink="https://github.com/pazs49/Castle-Defense-Tiny-Tactics"
               />
+
               <ProjectCard
-                title="Pixel Adventure"
-                description="2D platformer game with pixel art aesthetics"
-                image="/placeholder.svg?height=200&width=300"
-                tags={["Godot", "GDScript", "2D"]}
+                title="The Lumberjack's Lumber"
+                description="A fast-paced 2D game where you press the spacebar to chop down a tree!"
+                image="/portfolio/assets/lumberjackThumbnail.PNG"
+                tags={["Unity", "C#", "2D"]}
                 type="game"
-                demoLink=""
-                githubLink=""
-              />
-              <ProjectCard
-                title="VR Experience"
-                description="Interactive VR experience for education"
-                image="/placeholder.svg?height=200&width=300"
-                tags={["Unity", "C#", "VR"]}
-                type="game"
-                demoLink=""
-                githubLink=""
+                demoLink="https://jetblazer.itch.io/the-lumberjacks-lumber"
+                githubLink="https://github.com/pazs49/Castle-Defense-Tiny-Tactics"
               />
             </div>
           )}
