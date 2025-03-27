@@ -37,6 +37,8 @@ export default function SkillsSection() {
             </div>
             <div className="flex flex-wrap gap-3">
               <SkillBadge name="JavaScript" level={95} color="cyan" />
+              <SkillBadge name="Ruby" level={85} color="cyan" />
+              <SkillBadge name="Ruby On Rails" level={85} color="cyan" />
               <SkillBadge name="TypeScript" level={90} color="cyan" />
               <SkillBadge name="React" level={90} color="cyan" />
               <SkillBadge name="Zustand" level={85} color="cyan" />
