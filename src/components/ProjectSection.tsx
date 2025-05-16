@@ -46,7 +46,7 @@ export default function ProjectsSection() {
               <ProjectCard
                 title="Tiny Tactics 2D"
                 description="Defend your castle in this fast-paced 2D defense game! Strategically summon units to fend off waves of enemies and protect your kingdom."
-                image="/public/assets/tinyTactics2DThumbnail.PNG"
+                image="/portfolio/assets/tinyTactics2DThumbnail.PNG"
                 tags={["Unity", "C#", "2D"]}
                 type="game"
                 demoLink="https://percival49.itch.io/tiny-tactics-2d"
@@ -56,7 +56,7 @@ export default function ProjectsSection() {
               <ProjectCard
                 title="The Lumberjack's Lumber"
                 description="A fast-paced 2D game where you press the spacebar to chop down a tree!"
-                image="/public/assets/lumberjackThumbnail.PNG"
+                image="/portfolio/assets/lumberjackThumbnail.PNG"
                 tags={["Unity", "C#", "2D"]}
                 type="game"
                 demoLink="https://jetblazer.itch.io/the-lumberjacks-lumber"
@@ -70,7 +70,7 @@ export default function ProjectsSection() {
               <ProjectCard
                 title="Echo Chat App"
                 description="A chat application that interacts with an external API for messaging."
-                image="/public/assets/echoAppThumbnail.PNG"
+                image="/portfolio/assets/echoAppThumbnail.PNG"
                 tags={[
                   "React",
                   "React Router",
