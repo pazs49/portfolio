@@ -80,10 +80,49 @@ export default function ProjectsSection() {
                   "Vite",
                   "Vercel",
                   "Zustand",
+                  "JSON",
                 ]}
                 type="web"
                 demoLink="https://echo-chat-app.vercel.app/"
                 githubLink="https://github.com/pazs49/echo-chat-app"
+              />
+
+              <ProjectCard
+                title="Stock App API"
+                description="A Rails API that provides stock data by utilizing the Alpha Vantage API."
+                image="/portfolio/assets/railsStockAppThumbnail.PNG"
+                tags={[
+                  "Ruby on Rails",
+                  "Alpha Vantage",
+                  "REST API",
+                  "PostgreSQL",
+                  "Render",
+                  "JSON",
+                  "RSpec",
+                ]}
+                type="web"
+                demoLink="https://stock-app-client-i4di.onrender.com/"
+                githubLink="https://github.com/pazs49/stock-app-api"
+              />
+
+              <ProjectCard
+                title="Stock App Client"
+                description="A frontend application that consumes the Stock App API to display stock data."
+                image="/portfolio/assets/railsStockAppThumbnail.PNG"
+                tags={[
+                  "React",
+                  "Fetch",
+                  "TailwindCSS",
+                  "React Router",
+                  "Vite",
+                  "Render",
+                  "React Query",
+                  "ShadCN",
+                  "JSON",
+                ]}
+                type="web"
+                demoLink="https://stock-app-client-i4di.onrender.com/"
+                githubLink="https://github.com/pazs49/stock-app-client"
               />
             </div>
           )}
