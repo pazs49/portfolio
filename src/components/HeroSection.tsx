@@ -6,7 +6,7 @@ export default function HeroSection() {
     <section className="container mx-auto px-4 py-20 flex flex-col items-center text-center">
       <div className="w-32 h-32 rounded-full overflow-hidden mb-8 border-4 border-purple-500 shadow-lg shadow-purple-500/20">
         <img
-          src="/portfolio/assets/profile_photo.jfif"
+          src="/public/assets/profile_photo.jfif"
           alt="Profile"
           className="w-full h-full object-cover"
         />
