@@ -44,9 +44,10 @@ export default function SkillsSection() {
               <SkillBadge name="Zustand" level={85} color="cyan" />
               <SkillBadge name="Node.js" level={80} color="cyan" />
               <SkillBadge name="Tailwind CSS" level={90} color="cyan" />
-              <SkillBadge name="GraphQL" level={75} color="cyan" />
               <SkillBadge name="MongoDB" level={70} color="cyan" />
               <SkillBadge name="PostgreSQL" level={75} color="cyan" />
+              <SkillBadge name="Rspec" level={80} color="cyan" />
+              <SkillBadge name="Render" level={80} color="cyan" />
             </div>
           </div>
         </div>
