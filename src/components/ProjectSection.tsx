@@ -2,7 +2,7 @@ import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 
 export default function ProjectsSection() {
-  const [activeTab, setActiveTab] = useState("games");
+  const [activeTab, setActiveTab] = useState("web");
 
   return (
     <section id="projects" className="py-20">
