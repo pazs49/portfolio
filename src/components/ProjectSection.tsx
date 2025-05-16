@@ -99,6 +99,7 @@ export default function ProjectsSection() {
                   "Render",
                   "JSON",
                   "RSpec",
+                  "Devise",
                 ]}
                 type="web"
                 demoLink="https://stock-app-client-i4di.onrender.com/"
@@ -123,6 +124,16 @@ export default function ProjectsSection() {
                 type="web"
                 demoLink="https://stock-app-client-i4di.onrender.com/"
                 githubLink="https://github.com/pazs49/stock-app-client"
+              />
+
+              <ProjectCard
+                title="Stanley's Kitchen"
+                description="A static React client that generates recipes based on the ingredients you provide, powered by Mixtral AI."
+                image="/portfolio/assets/stanleysKitchenThumbnail.PNG"
+                tags={["React", "TailwindCSS", "Vite", "Render", "Mixtral AI"]}
+                type="web"
+                demoLink="https://stanleys-kitchen.onrender.com/"
+                githubLink="https://github.com/pazs49/stanleys-kitchen"
               />
             </div>
           )}
